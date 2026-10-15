@@ -23,6 +23,7 @@ MemCast is a novel framework that reformulates **Time Series Forecasting (TSF)**
 
 - **[2026-10-15] Publication update:** MemCast is published in the **ICML 2026** proceedings (**PMLR 306**, pp. **119553–119569**). This README now includes the official [proceedings entry](https://proceedings.mlr.press/v306/tao26a.html), [PDF](https://raw.githubusercontent.com/mlresearch/v306/main/assets/tao26a/tao26a.pdf), and conference BibTeX.
 - **[2026-10-15] Dataset update:** Updated the [dataset download link](https://drive.google.com/file/d/17q-XD5Hrhr2j0Hg9O7vHAWgwwLA2CQ23/view?usp=drive_link) and preparation instructions, including data provenance and the chronological **8:2 memory/test split**.
+- **[2026-02-03] Initial release:** We introduce **MemCast**, a learning-to-memory framework for experience-conditioned time series forecasting. The first version of our paper is available on [arXiv](https://arxiv.org/abs/2602.03164v1).
 
 ---
 
