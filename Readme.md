@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><img src="assets/image.png" alt="MemCast logo" style="height: 1em; width: auto; vertical-align: -0.15em; margin-right: 0.4em;">MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning (ICML2026, Accepted)</h1> 
+  <h1><img src="assets/image.png" alt="MemCast logo" style="height: 1em; width: auto; vertical-align: -0.15em; margin-right: 0.4em;">MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning (ICML 2026)</h1>
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
   </a>
@@ -15,7 +15,14 @@
 MemCast is a novel framework that reformulates **Time Series Forecasting (TSF)** as an **experience-conditioned reasoning task**. It explicitly accumulates forecasting experience into a hierarchical memory and leverages it to guide the inference process of Large Language Models (LLMs).
 
 > 📝 “MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning”  
-> **Preprint** | [📄 Paper](https://arxiv.org/abs/2602.03164)
+> **ICML 2026** | [📄 Proceedings](https://proceedings.mlr.press/v306/tao26a.html) | [PDF](https://raw.githubusercontent.com/mlresearch/v306/main/assets/tao26a/tao26a.pdf) | [arXiv](https://arxiv.org/abs/2602.03164) | [OpenReview](https://openreview.net/forum?id=IoY0A6opfl)
+>
+> Proceedings of the 43rd International Conference on Machine Learning, **PMLR 306:119553–119569, 2026**.
+
+## 📰 News
+
+- **[2026-10-15] Publication update:** MemCast is published in the **ICML 2026** proceedings (**PMLR 306**, pp. **119553–119569**). This README now includes the official [proceedings entry](https://proceedings.mlr.press/v306/tao26a.html), [PDF](https://raw.githubusercontent.com/mlresearch/v306/main/assets/tao26a/tao26a.pdf), and conference BibTeX.
+- **[2026-10-15] Dataset update:** Updated the [dataset download link](https://drive.google.com/file/d/17q-XD5Hrhr2j0Hg9O7vHAWgwwLA2CQ23/view?usp=drive_link) and preparation instructions, including data provenance and the chronological **8:2 memory/test split**.
 
 ---
 
@@ -25,12 +32,19 @@ MemCast is a novel framework that reformulates **Time Series Forecasting (TSF)**
 
 ## Citation
 
+Please cite the official ICML 2026 proceedings version:
+
 ```bibtex
-@article{tao2026memcast,
-  title={MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning},
+@inproceedings{tao2026memcast,
+  title={{M}em{C}ast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning},
   author={Tao, Xiaoyu and Cheng, Mingyue and Guo, Ze and Yu, Shuo and Liu, Yaguo and Liu, Qi and Wang, Shijin},
-  journal={arXiv preprint arXiv:2602.03164},
-  year={2026}
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  pages={119553--119569},
+  year={2026},
+  volume={306},
+  series={Proceedings of Machine Learning Research},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v306/tao26a.html}
 }
 ```
 
