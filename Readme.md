@@ -81,12 +81,13 @@ Energy (NP, PJM, BE, FR, DE)
 Electricity (ETTh1, ETTm1) 
 Renewable Power (Windy Power, Sunny Power) 
 Hydrology (MOPEX) 
-First, the training and evaluation datasets used in our experiments can be found in [Google Drive](https://drive.google.com/file/d/1HOCE20FQgLl0xCv_dOmLcTbN1RCZWwqd/view?usp=drive_link).
-Please place the datasets in the dataset directory.
+Download the datasets used in our experiments from [Google Drive (memcast_dataset.zip)](https://drive.google.com/file/d/17q-XD5Hrhr2j0Hg9O7vHAWgwwLA2CQ23/view?usp=drive_link) and extract the 10 CSV files into `./datasets/`.
+
+The datasets follow those used in AlphaCast. ETTh1 and ETTm1 are manually cropped subsets of the official ETT datasets; no additional preprocessing script is provided. MemCast uses a chronological 8:2 split: the first 80% of each dataset is used for memory accumulation, and the final 20% is used for testing. No separate validation split is used.
 
 ```bash
-mkdir dataset
-# Download datasets to ./dataset/
+mkdir -p datasets
+unzip /path/to/memcast_dataset.zip -d datasets/
 ```
 
 ### 4. Experience Accumulation (Memory Construction)
